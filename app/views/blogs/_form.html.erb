@@ -17,7 +17,7 @@
     <%= form.label :content %>
     <%= form.text_field :content %>
   </div>
-  <%= form.submit %>
+  <%= form.submit "登録する", :class => "btn btn-success" %>
 <% end %>
 
-<%= link_to "ブログ一覧に戻る", blogs_path %>
+<%= link_to "Happiness一覧に戻る", blogs_path, class:"btn btn-primary" %>

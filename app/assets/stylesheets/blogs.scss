@@ -1,3 +1,21 @@
 // Place all the styles related to the blogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.blog {
+  vertical-align: inherit;
+  margin: auto;
+}
+
+table {
+  display: inline-block;
+  margin-left: auto;
+　margin-right: auto;
+　border: 2px #000000 solid;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+ .word {
+   font-size: 20px;
+ }
