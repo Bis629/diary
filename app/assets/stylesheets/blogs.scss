@@ -19,3 +19,9 @@ table {
  .word {
    font-size: 20px;
  }
+ 
+ .blog-row {
+   width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+ }
